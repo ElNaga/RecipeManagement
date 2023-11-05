@@ -1,0 +1,58 @@
+/*******************\
+* Footer            *
+\*******************/
+
+.footer__overWrapper {
+    width: 100%;
+    background-color: #626262;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0px;
+    width: 70%;
+}
+
+/*------------------------------------*\
+  #center footer - Food Categories
+\*------------------------------------*/
+
+.footer__center ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer__center ul li{
+    margin-right: 20px;
+}
+.foodCategory__footer {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.aDot__footer {
+    height: 7px;
+    width: 7px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 6px 0;
+}
+
+.footer__right p {
+    margin: 0px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    text-align: right;
+}

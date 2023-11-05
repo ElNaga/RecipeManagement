@@ -1,0 +1,18 @@
+.saved--Overwrapper {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: #555555;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, serif;
+    border-radius: 6px;
+}
+
+.saved--Note {
+    margin: 0;
+    padding: 10px 20px;
+    color: white;
+}

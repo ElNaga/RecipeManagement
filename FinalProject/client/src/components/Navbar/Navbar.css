@@ -1,0 +1,127 @@
+.overWrapper {
+    background-color: #F8F7F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 85px;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 139px; */
+    width: 70%;
+}
+
+/*------------------------------------*\
+  #Logo
+\*------------------------------------*/
+.logo {
+    flex: 1;
+    width: 177px;
+    height: 58px;
+    cursor: pointer;
+}
+
+
+/*------------------------------------*\
+  #Food Categories
+\*------------------------------------*/
+.foodCategories {
+    flex: 1;
+}
+
+.foodCategories ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+.foodCategories ul li{
+    margin-right: 20px;
+}
+.foodCategory {
+    font-weight: bold;
+    font-size: 18px;
+    color: #a5a5a5;
+    cursor: pointer;
+}
+
+.aDot {
+    height: 9px;
+    width: 9px;
+    background-color: #f0972a;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 6px 0;
+}
+
+
+/*------------------------------------*\
+  #LogIn buttons
+\*------------------------------------*/
+
+.logButtons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logButtons ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logIn {
+    border: solid 1px;
+    border-radius: 6px;
+    color: #a5a5a5;
+    padding: 12px 29px;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.logIn:hover {
+    -webkit-filter: brightness(70%);
+    color: #bbbbbb;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 0.2s ease;
+}
+
+.orangeOr {
+    color: #f0972a;
+    margin: 0px 16px;
+}
+
+.createAccount {
+    border-radius: 6px;
+    color: white;
+    background-color: #96BB36;
+    padding: 12px 29px;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px #00000029
+}
+
+.createAccount:hover {
+    -webkit-filter: brightness(70%);
+    color: #bbbbbb;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
